@@ -1,0 +1,55 @@
+body 
+{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+/* Reusable clock */
+.clock{
+    /* width:48px; */
+    max-width:100%;
+    max-width:256px;
+    height:auto;
+    display:block;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+}
+
+.clock--face{
+    stroke-width: 1px;
+    stroke: #aeaeae;
+    stroke-linecap:round;
+    fill:#fff;
+}
+
+.clock--numeral{
+    fill:#444;
+}
+.clock--numeral-main{
+    fill:black;
+}
+
+.clock--hand{
+    fill:red;
+}
+
+.clock--hours{
+    /* stroke-width: 2px; stroke: #fff;  */
+    fill:black;
+	stroke-linecap:round;
+}
+.clock--minutes{
+    /* stroke-width: 1px; stroke: #555;  */
+    fill: #333;
+	stroke-linecap:round;
+}
+.clock--seconds{
+    fill:#F200F9;
+    stroke-linecap:round;
+    transition: transform 200ms ease-out;
+}
+.clock--center{
+    fill:black;
+}

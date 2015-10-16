@@ -1,0 +1,28 @@
+{
+  "name": "SVG-Time",
+  "version": "0.0.2",
+  "description": "Show Time",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designerzen/SVG-Time"
+  },
+  "keywords": [
+    "SVG",
+    "JS",
+    "JavaScript",
+    "Date"
+  ],
+  "author": "designerzen",
+  "devDependencies": {
+    "del": "^1.1.1",
+
+    "gulp": "^3.9.0",
+    "gulp-cli": "^0.3.0",
+
+    "gulp-jshint": "^1.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0"
+  },
+  "dependencies": {
+  }
+}
